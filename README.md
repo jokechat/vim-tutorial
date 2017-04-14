@@ -65,6 +65,9 @@ vim tutorial
   下面是一些例子🌰(如果熟悉了上面的概念,你将会看到这些例子非常容易理解),可以自己亲自尝试一番
   ```
   dip # 删除一个段落 delete inside paragraph
+  di{ # 删除{}中的所有代码 
+  di( # 删除()中的所有代码
+  di[ # 删除[] 中的所有代码
   vis # 选取一个句子 visula select inside sentence
   ciw # 修改一个单词 change inside word
   caw # 修改一个单词 change around word
